@@ -1,0 +1,19 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+---
+<StarlightPage
+  frontmatter={{ title: 'Orion' }}
+  sidebar={[
+    { label: 'Home', link: '/' },
+    {
+      label: 'Constellations',
+      items: [
+        { label: 'Andromeda', link: '/andromeda/' },
+        { label: 'Orion', link: '/orion/' },
+        { label: 'Ursa Minor', link: '/ursa-minor/', badge: 'Stub' },
+      ],
+    },
+  ]}
+>
+  Example content.
+</StarlightPage>
