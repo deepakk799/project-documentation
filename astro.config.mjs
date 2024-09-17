@@ -52,11 +52,11 @@ export default defineConfig({
                     label: 'Pricing',
                     schema: 'https://stage.shop.lifesciences.danaher.com/INTERSHOP/rest/WFS/SMC/-/swagger/DANAHERLS-LSIG-Site/-/oapi.yaml?apiID=pricing_v1'
                 },
-				{
-					base: 'storefront/api/products',
-					label: 'Products',
-					schema: 'https://stage.shop.lifesciences.danaher.com/INTERSHOP/rest/WFS/SMC/-/swagger/DANAHERLS-LSIG-Site/-/oapi.yaml?apiID=product'
-				},
+				// {
+				// 	base: 'storefront/api/products',
+				// 	label: 'Products',
+				// 	schema: 'https://stage.shop.lifesciences.danaher.com/INTERSHOP/rest/WFS/SMC/-/swagger/DANAHERLS-LSIG-Site/-/oapi.yaml?apiID=product'
+				// },
 				{
 					base: 'storefront/api/promotion',
 					label: 'Promotions',
@@ -87,11 +87,11 @@ export default defineConfig({
 					label: 'Wishlist',
 					schema: 'https://stage.shop.lifesciences.danaher.com/INTERSHOP/rest/WFS/SMC/-/swagger/DANAHERLS-LSIG-Site/-/oapi.yaml?apiID=wishlist'
 				},
-				{
-					base: 'inriver/api',
-					label: 'InRiver',
-					schema: 'https://apiuse.productmarketingcloud.com/swagger/v1/swagger.json'
-				}
+				// {
+				// 	base: 'inriver/api',
+				// 	label: 'InRiver',
+				// 	schema: 'https://apiuse.productmarketingcloud.com/swagger/v1/swagger.json'
+				// }
             ]),
         ],
         title: 'e-Commerce Docs',
