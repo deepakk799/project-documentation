@@ -7,7 +7,7 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://deepakk799.github.io',
-	base: '/e-commerce/',
+	base: '/',
     integrations: [starlight({
         plugins: [
             // Generate the OpenAPI documentation pages.
