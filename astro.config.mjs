@@ -110,13 +110,13 @@ export default defineConfig({
             {
                 label: 'Guides',
                 items: [
-                    { label: 'Example Guide', slug: 'guides/example' },
+                    { label: 'Documentation Guide', slug: 'guides/documentation' },
                 ],
             },
-            {
-                label: 'Reference',
-                autogenerate: { directory: 'reference' },
-            },
+            // {
+            //     label: 'Reference',
+            //     autogenerate: { directory: 'reference' },
+            // },
             {
                 label: 'APIs',
                 items: [
